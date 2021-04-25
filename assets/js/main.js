@@ -76,7 +76,8 @@ sr.reveal(`.home__data, .home__img,
             .about__data, .about__img,
             .services__content,
             .contact__data, .contact__button,
-            .footer__content`, {
-    interval: 200
-}
+            .footer__content`, 
+            {
+                interval: 200
+            }
 )
