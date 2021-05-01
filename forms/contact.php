@@ -48,14 +48,22 @@ if($_POST) {
     .'From: ' . $email . "\r\n";
       
     if(mail($recipient, $subject, $message, $headers)) {
-        echo "<p>Your message has been sent. Thank you!</p>";
+        echo '<div class="sent-message d-none">';
+        echo '<img src="assets/img/correct.png" alt="Success" class="success__img" />';
+        echo 'Your message has been sent. Thank you!';
+        echo '</div>';
     } else {
-        echo '<p>We are sorry but the email did not go through.</p>';
+        echo '<div class="error-message">';
+        echo '<img src="assets/img/error.png" alt="Error" class="error__img" />';
+        echo 'We are sorry but the email did not go through.';
+        echo '</div>';
     }
-
-    echo "<p>Your message has been sent. Thank you!</p>";
       
 } else {
-    echo '<p>Something went wrong</p>';
+    echo '<div class="error-message">';
+    echo '<img src="assets/img/error.png" alt="Error" class="error__img" />';
+    echo 'Oops! Something went wrong.';
+    echo '</div>';
 }
+header("Location: index.html");
 ?>
