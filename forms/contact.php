@@ -65,5 +65,5 @@ if($_POST) {
     echo 'Oops! Something went wrong.';
     echo '</div>';
 }
-header("Location: index.html");
+header("Location: ../index.html");
 ?>
