@@ -49,20 +49,25 @@
   margin-bottom: 16px;
   display: inline-block;
 }
+
 p.numberMarg {
   max-height: 96px;
   height: 96px;
 }
+
 footer.footer.section.bd-container {
   max-width: 1104px;
 }
+
 .nav__logo img {
   height: 60px;
-  width: 90px;
+  width: 200px;
 }
+
 .footer__container.bd-grid {
   gap: 3.5rem;
 }
+
 @media screen and (min-width: 768px) {
   :root {
     --biggest-font-size: 4rem;
@@ -144,6 +149,7 @@ img {
 .section-subtitle {
   text-align: center;
 }
+
 h3.textalign {
   display: inline-block;
   margin-left: 4px;
@@ -195,6 +201,7 @@ h3.textalign {
   justify-content: space-between;
   align-items: center;
 }
+
 .home__data h1,
 .home__data h2 {
   font-size: 30px;
@@ -273,10 +280,12 @@ h3.textalign {
   font-size: 1.8rem;
   color: var(--body-color);
 }
+
 body.dark-theme {
   background-color: var(--body-color);
   color: #fff;
 }
+
 button.ourMissionbtn {
   display: inline-block;
   background-color: var(--first-color);
@@ -286,6 +295,7 @@ button.ourMissionbtn {
   transition: 0.3s;
   outline: none;
 }
+
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -296,9 +306,11 @@ button.ourMissionbtn {
   outline: none;
   border: none;
 }
+
 button:focus {
   outline: none !important;
 }
+
 button.ourMissionbtn:hover,
 button.ourMissionbtn:focus,
 button.ourMissionbtn:active {
@@ -382,6 +394,7 @@ body button {
 .services__content {
   text-align: center;
 }
+
 header.section-header {
   text-align: center;
   padding-bottom: 40px;
@@ -393,22 +406,27 @@ header.section-header {
   fill: var(--first-color);
   margin-bottom: var(--mb-2);
 }
+
 .info-box {
   color: #444444;
   background: #e3f3f0;
   padding: 30px;
 }
+
 form.php-email-form {
   background: #e3f3f0;
   padding: 30px;
   height: 100%;
 }
+
 .col-md-6 {
   margin-top: 20px;
 }
+
 .col-md-12 {
   margin-top: 15px;
 }
+
 .services__title {
   font-size: var(--h3-font-size);
   color: var(--title-color);
@@ -515,6 +533,7 @@ form.php-email-form {
 
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px) {
+
   .home__container,
   .about__container,
   .app__container {
@@ -538,6 +557,7 @@ form.php-email-form {
     grid-template-columns: 1.75fr 1fr;
     align-items: center;
   }
+
   .contact__button {
     justify-self: center;
   }
@@ -555,13 +575,16 @@ form.php-email-form {
   .nav {
     height: calc(var(--header-height) + 1.5rem);
   }
+
   .nav__list {
     display: flex;
   }
+
   .nav__item {
     margin-left: var(--mb-5);
     margin-bottom: 0;
   }
+
   .nav__toggle {
     display: none;
   }
